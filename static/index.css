@@ -1,0 +1,57 @@
+main.row {
+    height: 100vh;
+    width: 100vw !important;
+}
+
+div.col.landingLeft {
+    background-color: #1DA1F2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+div.col.landingRight {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form.loginForm.row {
+    margin: 0;
+    position: absolute;
+    top: 2.5vh;
+}
+
+div#form-div {
+    padding-right: 0;
+}
+
+div.item-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+div#see-happening {
+    font-size: 2rem;
+}
+
+button.cta {
+    display: block;
+    width: 100%;
+}
+
+button#btn-signup {
+    background-color: #1DA1F2;
+}
+
+a#btn-signup-link {
+    color: white;
+}
